@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background: rgb(255, 255, 255);
+    color: rgb(3, 41, 84);
+}
+
+body {
+    color: rgb(3, 41, 84);
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 40px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.hamburger-scrolled {
+    width: 30px;
+    height: 35px;
+}
+
+.bar {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(3, 41, 84);
+    border-radius: 50px;
+    margin: 4px 0;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out,
+        background-color 0.4s ease-in-out;
+}
+
+/* Open state */
+.hamburger.open .bar {
+    background-color: white;
+}
+
+.hamburger.open .bar:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+}
+
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+}
+
+.hamburger-scrolled.open .bar:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+}
+
+.hamburger-scrolled.open .bar:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+}
+
+@layer utilities {
+    .pause {
+        animation-play-state: paused;
+    }
+}
+
+/* Target the background color of the input when autofilled */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.05) inset;
+    box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.05) inset;
+    -webkit-text-fill-color: #ffffff !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Ensure the outline remains consistent */
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+    border: none;
+}
