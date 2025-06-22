@@ -187,13 +187,13 @@ export default function Home() {
                     </div>
                 </article>
             </section>
-            <section className="mx-auto w-[95%] max-w-[1400px]">
+            {/* <section className="mx-auto w-[95%] max-w-[1400px]">
                 <article className="flex flex-col justify-center items-center pt-5 xl:pt-11">
                     <div className="w-[95%] max-w-[1400px] sm:w-[90%] lg:w-[90%]">
                         <Video />
                     </div>
                 </article>
-            </section>
+            </section> */}
         </main>
     );
 }

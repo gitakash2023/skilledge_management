@@ -16,13 +16,13 @@ export default function About() {
             <section className="mx-auto w-[95%] max-w-[1400px] lg:mt-4">
                 <article className="flex flex-col justify-center items-center gap-5 lg:gap-7 xl:gap-10 px-2 lg:px-0 text-center w-full max-w-[1430px] sm:w-[90%] md:w-[85%] xl:w-[95%] mx-auto *:leading-relaxed">
                     <h2 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
-                        About Skilledge Management Industries
+                        About Skilledge Management 
                     </h2>
                     <div className="flex flex-col gap-3 xl:gap-5">
                         <p>
-                            Skilledge Management Industries has been locally owned and
+                            Skilledge Management  has been locally owned and
                             serving Western PA since 1986, and proudly
-                            employee-owned since 2022! We don&apos;t require a
+                            employee-owned since 2024! We don&apos;t require a
                             long-term contract with our customers. From 2,000
                             square foot dentist office to a 200,000 square foot
                             plant, no job is too big or too small for us to
@@ -37,7 +37,7 @@ export default function About() {
                             for a FREE estimate today!
                         </p>
                         <p>
-                            The team at Skilledge Management Industries considers
+                            The team at Skilledge Management  considers
                             customer service as our #1 priority. The entire team
                             has been trained and works at various janitorial
                             sites performing various janitorial services. Our

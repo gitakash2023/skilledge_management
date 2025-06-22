@@ -18,7 +18,7 @@ export default function Employment() {
             <section className="mx-auto w-[95%] max-w-[1400px] lg:mt-4">
                 <article className="flex flex-col justify-center items-center px-5 lg:px-0  gap-5 lg:gap-7 xl:gap-10 w-full sm:w-[90%] xl:w-[95%] mx-auto *:leading-relaxed">
                     <h2 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
-                        Join the Team at Skilledge Management Industries
+                        Join the Team at Skilledge Management pvt ltd
                     </h2>
                     <div className="w-full *:max-w-[350px] *:lg:max-w-[430px] mt-2 bg-light-blue/30 flex flex-col items-center py-3 drop-shadow-xl text-navy-blue font-bold px-8 text-center">
                         <span>
@@ -50,7 +50,7 @@ export default function Employment() {
                         </p>
                     </div>
                     <a
-                        href="https://www.workstream.us/j/a3d940aa/rolling-hills-industries?locale=en&referer_source=https://www.rollinghillsindustries.com/"
+                        href="#"
                         className="text-lg sm:text-2xl xl:text-3xl 2xl:text-3xl  *:gap-0.5 *:sm:gap-4 *:pl-5 *:sm:pl-10 *:py-2 *:sm:py-2 *:xl:py-2  *:*:*:size-9 *:*:*:sm:size-10 *:*:*:xl:size-11 *:*:*:2xl:size-12  *:*:pr-1.5 *:*:sm:pr-4"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -70,7 +70,7 @@ export default function Employment() {
             <section className="mx-auto w-[95%] max-w-[1400px] relative">
                 <article className="flex flex-col items-center w-full sm:w-[90%] xl:w-[95%] *:xl:w-[85%] mx-auto gap-5 lg:gap-7 xl:gap-10">
                     <h3 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
-                        Benefits of Working With Skilledge Management Industries
+                        Benefits of Working With Skilledge Management 
                     </h3>
 
                     <ul className="grid md:grid-cols-2 gap-3 xl:gap-6 font-bold text-navy-blue list-disc ml-10 md:ml-14 *:w-[90%]">
@@ -80,13 +80,13 @@ export default function Employment() {
                     </ul>
                 </article>
             </section>
-            <section className="mx-auto w-[95%] max-w-[1400px]">
+            {/* <section className="mx-auto w-[95%] max-w-[1400px]">
                 <article className="flex justify-center">
                     <div className="w-[95%] max-w-[1300px] sm:w-[90%] lg:w-[90%]">
                         <Video />
                     </div>
                 </article>
-            </section>
+            </section> */}
         </main>
     );
 }

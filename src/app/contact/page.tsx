@@ -120,22 +120,22 @@ export default function Contact() {
             >
                 <article className="flex flex-col justify-center items-center gap-5 lg:gap-7 xl:gap-10 w-full px-2 lg:px-0 md:w-[90%] xl:w-[95%] mx-auto *:leading-relaxed">
                     <h2 className="text-navy-blue font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
-                        Contact Skilledge Management Industries Today
+                        Contact Skilledge Management  Today
                     </h2>
                     <div className="flex flex-col sm:flex-row justify-around items-start gap-5 sm:gap-9 lg:gap-14 xl:gap-16 lg:px-0 w-full *:leading-relaxed text-start">
                         <div className="flex flex-col gap-3 sm:gap-5 px-4 sm:px-2 lg:px-0">
                             <h3 className="text-navy-blue font-bold text-xl lg:text-2xl xl:text-3xl">
-                                Skilledge Management Industries
+                                Skilledge Management 
                             </h3>
                             <address className="flex flex-col gap-3 xl:gap-5 not-italic px-2 lg:px-0">
-                                <p>700 Hoke St</p>
-                                <p>Latrobe, PA 15650</p>
+                                <p>74, Jagatpur, Sas Nagar, Dharamgarh, Rupnagar, </p>
+                                <p>Mohali, Punjab – 140306</p>
                                 <p>
                                     <a
-                                        href="tel:724-539-4199"
+                                        href="tel:+1 581-684-0253"
                                         className="hover:underline"
                                     >
-                                        724-539-4199
+                                        +1 581-684-0253
                                     </a>
                                 </p>
                             </address>
@@ -363,7 +363,7 @@ export default function Contact() {
                 <article className="w-full mt-2 mb-5 drop-shadow-lg">
                     <iframe
                         className="aspect-video h-full min-h-[545px] lg:min-h-[650px] max-h-[800px] xl:max-h-[900px] rounded-xl"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.0390909054245!2d-79.38554292325173!3d40.31928997145544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834cd4d7433928d%3A0x230fc3511100926c!2sRolling%20Hills%20Industries!5e0!3m2!1sen!2sus!4v1730999364494!5m2!1sen!2sus"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.370148080464!2d76.6572000753826!3d30.70464897462759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e6b6e3%3A0x2e8e8e8e8e8e8e8e!2sJagatpur%2C%20Mohali%2C%20Punjab%20140306%2C%20India!5e0!3m2!1sen!2sin!4v1719220000000!5m2!1sen!2sin"
                         width={"100%"}
                         height={"100%"}
                         style={{ border: "0" }}

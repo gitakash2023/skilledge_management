@@ -139,13 +139,13 @@ export default function JanitorialServices() {
                     </div>
                 </article>
             </section>
-            <section className="mx-auto w-[95%] max-w-[1400px]">
+            {/* <section className="mx-auto w-[95%] max-w-[1400px]">
                 <article className="flex justify-center mt-2 mb-5 drop-shadow-lg">
                     <div className="w-[95%] sm:w-[90%]">
                         <Video />
                     </div>
                 </article>
-            </section>
+            </section> */}
         </main>
     );
 }
