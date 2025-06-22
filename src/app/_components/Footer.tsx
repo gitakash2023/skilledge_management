@@ -45,13 +45,13 @@ export function Footer({ ref }: FooterProps) {
                             <p>74, Jagatpur, Sas Nagar, Dharamgarh, Rupnagar, Mohali, Punjab – 140306</p>
                             
                             <p className="pt-6">
-                                <a
-                                    href="tel:724-539-4199"
-                                    className="hover:underline"
-                                >
-                                    7991492897(Akash Kumar)
-                                </a>
-                            </p>
+    <a
+        href="tel:+15816840253"
+        className="hover:underline"
+    >
+        +1 581-684-0253 (Francisco)
+    </a>
+</p>
                         </address>
                     </div>
                 </div>

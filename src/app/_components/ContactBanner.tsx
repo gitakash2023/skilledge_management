@@ -82,7 +82,7 @@ export function ContactBanner({
                             <span className="*:size-4 text-white group-hover:text-yellow scale-100 *:group-hover:scale-110 *:duration-500 *:ease-out pr-2">
                                 <FaPhone />
                             </span>
-                            Call 7991492897(Akash Kumar)
+                            Call +1 581-684-0253(Francisco)
                         </button>
                         <button
                             onClick={() =>
