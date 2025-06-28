@@ -66,13 +66,13 @@ export default function JanitorialSupplies() {
                     </footer>
                 </article>
             </section>
-            <section className="mx-auto w-[95%] max-w-[1400px]">
+            {/* <section className="mx-auto w-[95%] max-w-[1400px]">
                 <article className="flex flex-col justify-center items-center">
                     <div className="w-[95%] max-w-[1300px] sm:w-[90%]">
                         <Video />
                     </div>
                 </article>
-            </section>
+            </section> */}
         </main>
     );
 }
