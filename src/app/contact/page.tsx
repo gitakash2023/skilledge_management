@@ -159,8 +159,9 @@ export default function Contact() {
                     </h2>
                     <div className="flex flex-col gap-5">
                         <p>
-                            Whether you're a job seeker or an employer looking to hire, we'd love to hear from you. Submit your inquiry below and our team will get back to you with the right opportunities and solutions.
-                        </p>
+  Whether you&apos;re a job seeker or an employer looking to hire, we&apos;d love to hear from you.
+</p>
+
                     </div>
                 </article>
             </section>
