@@ -42,7 +42,7 @@ export function Header() {
                 >
                     <Image
                         src="/skilledge_logo1.png"
-                        alt="Skilledge Management Commercial Cleaning Company"
+                        alt="Skilledge Management Global Recruitment Agency Logo"
                         className="duration-500 ease-out hover:scale-105 scale-100"
                         fill={true}
                         sizes="(max-width: 768px) 96px, (max-width: 1024px) 112px, 170px"

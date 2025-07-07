@@ -11,22 +11,22 @@ export default function Home() {
                 altText="Shiny night city"
                 isHomePage={true}
             >
-                <h1> SKILLEDGE MANAGEMENT  COMMERCIAL CLEANING SERVICES</h1>
+                <h1>SKILLEDGE MANAGEMENT JOB RECRUITMENT AGENCY</h1>
                 <Link
                     href="/schedule-meeting"
                     className="text-lg sm:text-2xl 2xl:text-3xl *:gap-0.5 *:sm:gap-4 *:pl-5 *:sm:pl-10 *:py-2 *:lg:py-3   *:*:*:size-9 *:*:*:sm:size-10 *:*:*:2xl:size-11  *:*:pr-1.5 *:*:sm:pr-4"
                 >
-                    <Button text={"BOOK A FREE ON-SITE ESTIMATE"} />
+                    <Button text={"SCHEDULE A FREE CONSULTATION"} />
                 </Link>
                 <span className="text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl">
-                    General Cleaning of Buildings | Mohali, Punjab | CIN: U81210PB2025PTC063560
+                    Supplying Workforce in India, Gulf & Europe | CIN: U93000PB2025PTC063560
                 </span>
             </Banner>
             <section className="">
                 <figure className="relative w-full">
                     <Image
                         src="/man-holding-cleaning-supplies.jpg"
-                        alt="Man in uniform holding commercial cleaning supplies"
+                        alt="People discussing job opportunities"
                         fill={true}
                         priority={true}
                         className="opacity-50"
@@ -34,7 +34,7 @@ export default function Home() {
 
                     <article className="relative w-full h-full bg-navy-blue/75 flex flex-col justify-center items-center text-center py-9 2xl:py-16 gap-5 lg:gap-7 2xl:gap-10">
                         <h2 className="text-white font-bold text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl">
-                            We Offer Commercial Cleaning Services to
+                            We Provide Recruitment Solutions For
                         </h2>
                         <div className="grid grid-cols-2 min-[410px]:grid-cols-3 justify-items-center 2xl:w-[70%] max-w-[90%] sm:max-w-[85%] xl:max-w-[1000px] gap-x-7 sm:gap-x-14 md:gap-x-14 xl:gap-x-20 gap-y-7 sm:gap-y-12 md:gap-y-12 xl:gap-y-20">
                             {businessesServiced.map((business, index) => (
@@ -47,28 +47,25 @@ export default function Home() {
             <section className="mx-auto w-[95%] max-w-[1400px]">
                 <article className="flex flex-col gap-5 lg:gap-7 xl:gap-10 px-5 lg:px-0 py-9 xl:py-16 bg-gray-blue-yellow-gradient">
                     <h2 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl">
-                        Our Mission Is To Go Beyond Cleaning
+                        Our Mission Is To Empower Careers
                     </h2>
                     <div className="flex flex-col-reverse lg:flex-row gap-8 w-full sm:w-[90%] md:w-[85%] lg:w-[95%] mx-auto">
                         <div className="flex flex-col justify-around items-center w-full lg:w-1/2 text-center lg:text-start gap-8 lg:gap-0">
                             <div className="flex flex-col gap-3 xl:gap-5">
                                 <p>
-                                    Skilledge Management pvt ltd&apos; value to you
-                                    is defined by the high quality we bring to
-                                    your facilities and reduced downtime in your
-                                    labor, processes, supplies and equipment.
+                                    Skilledge Management Pvt Ltd connects job seekers with employers worldwide, unlocking new career opportunities for everyone.
                                 </p>
                                 <p>
-                                    Our mission is to be the premier provider of
-                                    commercial and industrial cleaning services
-                                    and products in Westmoreland, Indiana and
-                                    surrounding counties.
+                                    Our mission is to be the most reliable global job recruitment agency, providing innovative staffing solutions across industries and professions.
                                 </p>
                                 <p>
-                                    By listening and responding, we build
-                                    satisfying relationships with our clients
-                                    and employees. The result is quality,
-                                    stability and consistency.
+                                    By understanding the needs of both candidates and companies, we deliver tailored recruitment services that drive success and growth.
+                                </p>
+                                <p>
+                                    With 20+ years of expertise, we have successfully placed <strong>lakhs of candidates</strong> in their dream jobs across India, Gulf countries, and Europe.
+                                </p>
+                                <p>
+                                    We have helped companies around the globe overcome long-standing hiring challenges—fulfilling critical manpower needs and accelerating business growth.
                                 </p>
                             </div>
                             <Link
@@ -81,7 +78,7 @@ export default function Home() {
                         <div className="relative w-full mx-auto max-w-[350px] sm:max-w-[450px] lg:min-w-[500px] lg:w-3/5 xl:w-1/2 xl:max-w-[600px] 2xl:min-w-[730px] h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[550px] 2xl:h-[700px] drop-shadow-lg">
                             <Image
                                 src="/professional-cleaner-showing-approval.jpg"
-                                alt="Smiling professional cleaner in uniform giving a thumbs up"
+                                alt="Career consultation session"
                                 fill={true}
                                 className="rounded-xl"
                             />
@@ -92,13 +89,13 @@ export default function Home() {
             <section className="mx-auto w-[95%] max-w-[1400px]">
                 <article className="flex flex-col gap-5 lg:gap-7 xl:gap-10 px-5 lg:px-0 py-9 xl:py-16">
                     <h2 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl">
-                        Top-Quality Cleaning Supplies Used
+                        Trusted Recruitment Tools & Techniques
                     </h2>
                     <div className="flex flex-col lg:flex-row gap-8 w-full sm:w-[90%] md:w-[85%] lg:w-[95%] mx-auto">
                         <div className="relative w-full mx-auto max-w-[350px] sm:max-w-[450px] lg:min-w-[500px] lg:w-3/5 xl:w-1/2 xl:max-w-[600px] 2xl:min-w-[730px] h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[550px] 2xl:h-[700px] drop-shadow-lg">
                             <Image
                                 src="/quality-cleaning-supplies.jpg"
-                                alt="Quality cleaning supplies"
+                                alt="Recruitment tools and techniques"
                                 fill={true}
                                 className="rounded-xl"
                             />
@@ -106,23 +103,14 @@ export default function Home() {
                         <div className="flex flex-col justify-around items-center w-full lg:w-1/2 text-center lg:text-start gap-8 lg:gap-0">
                             <div className="flex flex-col gap-3 xl:gap-5">
                                 <p>
-                                    When you need janitorial and cleaning
-                                    supplies to beautify and clean your
-                                    facility, trust our products and their
-                                    capability to give you just that! We use
-                                    them each and every day.
+                                    We utilize advanced recruitment tools, screening processes, and analytics to find the best candidates for your organization globally.
                                 </p>
                                 <p>
-                                    We understand that cleaning and janitorial
-                                    services are crucial for your commercial and
-                                    industrial business. That&apos;s why we
-                                    strive to be the region&apos;s most
-                                    dependable and professional business
-                                    cleaning service.
+                                    From sourcing to onboarding, we ensure that every step is optimized for efficiency and quality hiring outcomes worldwide.
                                 </p>
                             </div>
                             <Link
-                                href="/janitorial-supplies"
+                                href="/recruitment-tools"
                                 className="text-lg md:text-2xl 2xl:text-3xl *:gap-0.5 *:md:gap-4 *:pl-5 *:md:pl-10 *:py-1 *:md:py-1.5 *:2xl:py-2 *:*:*:size-8 *:*:*:lg:size-9 *:*:*:2xl:size-11 *:*:pr-1.5 *:*:md:pr-4"
                             >
                                 <Button text={"LEARN MORE"} />
@@ -134,27 +122,20 @@ export default function Home() {
             <section className="mx-auto w-[95%] max-w-[1400px]">
                 <article className="flex flex-col gap-5 lg:gap-7 xl:gap-10 px-5 lg:px-0 py-9 xl:py-16 bg-off-white">
                     <h2 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl">
-                        Reliable Janitorial Services
+                        Comprehensive Staffing Services
                     </h2>
                     <div className="flex flex-col-reverse lg:flex-row gap-8 w-full sm:w-[90%] md:w-[85%] lg:w-[95%] mx-auto">
                         <div className="flex flex-col justify-around items-center w-full lg:w-1/2 text-center lg:text-start gap-8 lg:gap-0">
                             <div className="flex flex-col gap-3 xl:gap-5">
                                 <p>
-                                    Skilledge Management Industries serves businesses
-                                    and organizations in Westmoreland, Indiana
-                                    and surrounding counties.
+                                    Skilledge Management serves businesses across industries with tailored staffing and recruitment solutions globally.
                                 </p>
                                 <p>
-                                    Whether your facility is small or big, the
-                                    health and safety of you and your staff is
-                                    very important. This not only keeps the
-                                    employees happy but also contributes to the
-                                    productivity and positive attitude of your
-                                    staff.
+                                    Whether you need permanent, temporary, or contract-based recruitment, we ensure you get the right talent for long-term success.
                                 </p>
                             </div>
                             <Link
-                                href="/janitorial-services"
+                                href="/staffing-services"
                                 className="text-lg md:text-2xl 2xl:text-3xl *:gap-0.5 *:md:gap-4 *:pl-5 *:md:pl-10 *:py-1 *:md:py-1.5 *:2xl:py-2 *:*:*:size-8 *:*:*:lg:size-9 *:*:*:2xl:size-11 *:*:pr-1.5 *:*:md:pr-4"
                             >
                                 <Button text={"LEARN MORE"} />
@@ -163,7 +144,7 @@ export default function Home() {
                         <div className="relative w-full mx-auto max-w-[350px] sm:max-w-[450px] lg:min-w-[500px] lg:w-3/5 xl:w-1/2 xl:max-w-[600px] 2xl:min-w-[730px] h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[550px] 2xl:h-[700px] drop-shadow-lg">
                             <Image
                                 src="/reliable-janitorial-service.jpg"
-                                alt="Reliable janitorial service"
+                                alt="Global staffing services"
                                 fill={true}
                                 className="rounded-xl"
                             />
@@ -171,29 +152,85 @@ export default function Home() {
                     </div>
                 </article>
             </section>
+            <section className="mx-auto w-[95%] max-w-[1400px]">
+  <article className="flex flex-col gap-5 lg:gap-7 xl:gap-10 px-5 lg:px-0 py-9 xl:py-16">
+    <h2 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl">
+      Choose Your Recruitment Plan
+    </h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10">
+      {/* Basic Plan */}
+      <div className="flex flex-col items-center justify-between border rounded-xl p-6 shadow-lg bg-white h-full">
+        <div className="flex flex-col items-center gap-4">
+          <h3 className="text-2xl font-bold text-blue-600">Basic Plan</h3>
+          <p className="text-xl font-bold text-blue-500 mb-4">₹ 59</p>
+          <ul className="text-gray-700 space-y-2 text-left">
+            <li>✅ Job Application Guidance</li>
+            <li>✅ Resume Formatting Tips</li>
+            <li>✅ Email Support (5 queries)</li>
+            <li>✅ Access to Basic Job Listings</li>
+            <li>✅ Profile Review (1 Time)</li>
+          </ul>
+        </div>
+        <button className="bg-navy-blue text-white px-8 py-3 mt-6 rounded-md hover:bg-blue-700 transition w-full text-center">
+          Choose Plan
+        </button>
+      </div>
+
+      {/* Standard Plan */}
+      <div className="flex flex-col items-center justify-between border rounded-xl p-6 shadow-lg bg-white h-full">
+        <div className="flex flex-col items-center gap-4">
+          <h3 className="text-2xl font-bold text-yellow-600">Standard Plan</h3>
+          <p className="text-xl font-bold text-yellow-500 mb-4">₹ 99</p>
+          <ul className="text-gray-700 space-y-2 text-left">
+            <li>✅ Personalized Job Search Support</li>
+            <li>✅ Resume Writing Assistance</li>
+            <li>✅ Email + WhatsApp Support (10 queries)</li>
+            <li>✅ Priority Access to Job Listings</li>
+            <li>✅ 2 Profile Reviews + Feedback</li>
+            <li>✅ Interview Preparation Guide</li>
+          </ul>
+        </div>
+        <button className="bg-navy-blue text-white px-8 py-3 mt-6 rounded-md hover:bg-blue-700 transition w-full text-center">
+          Choose Plan
+        </button>
+      </div>
+
+      {/* Premium Plan */}
+      <div className="flex flex-col items-center justify-between border rounded-xl p-6 shadow-lg bg-white h-full">
+        <div className="flex flex-col items-center gap-4">
+          <h3 className="text-2xl font-bold text-purple-600">Premium Plan</h3>
+          <p className="text-xl font-bold text-purple-500 mb-4">₹ 149</p>
+          <ul className="text-gray-700 space-y-2 text-left">
+            <li>✅ End-to-End Recruitment Assistance</li>
+            <li>✅ Professional Resume + Cover Letter</li>
+            <li>✅ Unlimited Email & WhatsApp Support</li>
+            <li>✅ Exclusive Job Alerts + Early Access</li>
+            <li>✅ Unlimited Profile Reviews & Feedback</li>
+            <li>✅ 1-on-1 Virtual Career Consultation</li>
+            <li>✅ Mock Interview Sessions (2 Rounds)</li>
+          </ul>
+        </div>
+        <button className="bg-navy-blue text-white px-8 py-3 mt-6 rounded-md hover:bg-blue-700 transition w-full text-center">
+          Choose Plan
+        </button>
+      </div>
+    </div>
+  </article>
+</section>
+
             <section className="mx-auto w-[95%]">
                 <article className="flex flex-col text-center gap-5 lg:gap-7 xl:gap-10 px-2 py-9 xl:py-16 overflow-hidden">
                     <h2 className="text-navy-blue font-bold text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl">
                         Our Clients
                     </h2>
                     <p className="w-full max-w-[1400px] sm:w-[90%] md:w-[85%] xl:w-[95%] mx-auto">
-                        Skilledge Management offers dependable and professional
-                        cleaning and janitorial services for any business or
-                        organization in Westmoreland, Indiana, and surrounding
-                        counties.
+                        Skilledge Management is trusted by global businesses and organizations to deliver efficient recruitment and staffing solutions.
                     </p>
                     <div className="flex">
                         <ClientList />
                     </div>
                 </article>
             </section>
-            {/* <section className="mx-auto w-[95%] max-w-[1400px]">
-                <article className="flex flex-col justify-center items-center pt-5 xl:pt-11">
-                    <div className="w-[95%] max-w-[1400px] sm:w-[90%] lg:w-[90%]">
-                        <Video />
-                    </div>
-                </article>
-            </section> */}
         </main>
     );
 }

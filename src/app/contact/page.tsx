@@ -80,9 +80,9 @@ export default function Contact() {
                     }
                 );
                 if (response.status !== 200) {
-                    throw new Error("Email service returned an error."); // Throw an error to be caught below
+                    throw new Error("Email service returned an error.");
                 }
-                setStatus("Message sent successfully!");
+                setStatus("Your inquiry has been submitted successfully!");
                 setFormData({
                     "from_name": "",
                     "reply_to": "",
@@ -95,7 +95,7 @@ export default function Contact() {
                 });
                 (window as unknown as Window).grecaptcha.reset();
             } catch {
-                setStatus("Failed to send message.");
+                setStatus("Failed to send your inquiry.");
             }
         }
         submitForm();
@@ -109,7 +109,7 @@ export default function Contact() {
             >
                 <div className="flex items-end w-full h-full">
                     <div className="bg-blue-white/50 w-full pl-5 lg:pl-20 py-2 sm:py-3">
-                        <h1>CONTACT</h1>
+                        <h1>GET IN TOUCH</h1>
                     </div>
                 </div>
             </Banner>
@@ -120,15 +120,15 @@ export default function Contact() {
             >
                 <article className="flex flex-col justify-center items-center gap-5 lg:gap-7 xl:gap-10 w-full px-2 lg:px-0 md:w-[90%] xl:w-[95%] mx-auto *:leading-relaxed">
                     <h2 className="text-navy-blue font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
-                        Contact Skilledge Management  Today
+                        Connect with Skilledge Management Recruitment Team
                     </h2>
                     <div className="flex flex-col sm:flex-row justify-around items-start gap-5 sm:gap-9 lg:gap-14 xl:gap-16 lg:px-0 w-full *:leading-relaxed text-start">
                         <div className="flex flex-col gap-3 sm:gap-5 px-4 sm:px-2 lg:px-0">
                             <h3 className="text-navy-blue font-bold text-xl lg:text-2xl xl:text-3xl">
-                                Skilledge Management 
+                                Office Address
                             </h3>
                             <address className="flex flex-col gap-3 xl:gap-5 not-italic px-2 lg:px-0">
-                                <p>74, Jagatpur, Sas Nagar, Dharamgarh, Rupnagar, </p>
+                                <p>74, Jagatpur, Sas Nagar, Dharamgarh, Rupnagar,</p>
                                 <p>Mohali, Punjab – 140306</p>
                                 <p>
                                     <a
@@ -142,7 +142,7 @@ export default function Contact() {
                         </div>
                         <div className="flex flex-col gap-3 sm:gap-5 px-4 sm:px-2 lg:px-0">
                             <h3 className="text-navy-blue font-bold text-xl lg:text-2xl xl:text-3xl">
-                                Business Hours
+                                Office Hours
                             </h3>
                             <div className="grid grid-cols-2 gap-2 xl:gap-5 px-2 lg:px-0">
                                 <p>Mon - Fri</p>
@@ -155,17 +155,11 @@ export default function Contact() {
                 </article>
                 <article className="flex flex-col justify-center items-center gap-5 lg:gap-7 xl:gap-10 w-full px-2 lg:px-0 md:w-[90%] xl:w-[95%] mx-auto *:leading-relaxed">
                     <h2 className="text-navy-blue font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
-                        Contact Us for a Free Estimate!
+                        Send Your Job Inquiry or Request!
                     </h2>
                     <div className="flex flex-col gap-5">
                         <p>
-                            Are you interested in our services? We welcome the
-                            opportunity to talk with you about your cleaning
-                            needs and provide you with a free estimate. We are
-                            confident the quality of our services will provide
-                            you a clean environment where employees feel
-                            healthy, productivity is high, and customers are
-                            satisfied.
+                            Whether you're a job seeker or an employer looking to hire, we'd love to hear from you. Submit your inquiry below and our team will get back to you with the right opportunities and solutions.
                         </p>
                     </div>
                 </article>
@@ -294,36 +288,27 @@ export default function Contact() {
                                 </select>
                             </label>
                             <label htmlFor="services_needed">
-                                What services are you interested in?
+                                Services Required
                                 <select
                                     id="services_needed"
                                     name="services_needed"
                                     value={formData["services_needed"]}
                                     onChange={handleChange}
                                     required
-                                    aria-label="What services are you interested in?"
+                                    aria-label="Services Required"
                                     className="w-full p-3 sm:p-2 xl:p-3 rounded bg-white/20 focus:outline-2 focus:outline focus:outline-white drop-shadow-lg *:text-dark-gray hover:cursor-pointer"
                                 >
                                     <option value="" disabled>
                                         Select Service
                                     </option>
-                                    <option value="general-janitorial">
-                                        General Janitorial
+                                    <option value="job-inquiry">
+                                        Job Inquiry
                                     </option>
-                                    <option value="carpet-care">
-                                        Carpet Care
+                                    <option value="partnership">
+                                        Partnership
                                     </option>
-                                    <option value="hard-surface-floor-care">
-                                        Hard-Surface Floor Care
-                                    </option>
-                                    <option value="windows-glass">
-                                        Windows/Glass
-                                    </option>
-                                    <option value="spring-seasonal-cleaning">
-                                        Spring/Seasonal Cleaning
-                                    </option>
-                                    <option value="specialty-service">
-                                        Specialty Service
+                                    <option value="hiring-request">
+                                        Hiring Request
                                     </option>
                                     <option value="other">Other</option>
                                 </select>
@@ -331,7 +316,7 @@ export default function Contact() {
                         </div>
                         <div className="col-span-2">
                             <label htmlFor="message">
-                                Please Describe Your Facility
+                                Additional Details
                                 <textarea
                                     id="message"
                                     name="message"
@@ -344,10 +329,7 @@ export default function Contact() {
                                 ></textarea>
                             </label>
                         </div>
-                        <div
-                            className="g-recaptcha"
-                            data-sitekey={reSiteKey}
-                        ></div>
+                        <div className="g-recaptcha" data-sitekey={reSiteKey}></div>
                         <button
                             className="*:size-6 absolute top-[780px] sm:top-[600px] md:top-[513px] xl:top-[605px] 2xl:top-[615px] right-[31px] xl:right-[37px] text-xl hover:cursor-pointer hover:scale-110 transition transform duration-300 ease-in-out text-white hover:text-yellow"
                             type="submit"
@@ -357,19 +339,6 @@ export default function Contact() {
                         </button>
                         {status && <p>{status}</p>}
                     </form>
-                </article>
-            </section>
-            <section className="mx-auto w-[95%] max-w-[1400px]">
-                <article className="w-full mt-2 mb-5 drop-shadow-lg">
-                    <iframe
-                        className="aspect-video h-full min-h-[545px] lg:min-h-[650px] max-h-[800px] xl:max-h-[900px] rounded-xl"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.370148080464!2d76.6572000753826!3d30.70464897462759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc1e2e6b6e3%3A0x2e8e8e8e8e8e8e8e!2sJagatpur%2C%20Mohali%2C%20Punjab%20140306%2C%20India!5e0!3m2!1sen!2sin!4v1719220000000!5m2!1sen!2sin"
-                        width={"100%"}
-                        height={"100%"}
-                        style={{ border: "0" }}
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
                 </article>
             </section>
         </main>

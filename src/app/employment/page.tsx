@@ -7,46 +7,33 @@ export default function Employment() {
         <main className="flex flex-col gap-10 xl:gap-14 min-h-screen">
             <Banner
                 backgroundImageUrl="/cleaning-crew-giving-thumbs-up.jpg"
-                altText="Cleaning crew giving thumbs up cleaning"
+                altText="Recruitment team giving thumbs up"
             >
                 <div className="flex items-end w-full h-full">
                     <div className="bg-blue-white/50 w-full pl-5 lg:pl-20 py-1 sm:py-2 xl:py-3">
-                        <h1>Skilledge Management IS NOW HIRING!!</h1>
+                        <h1>Skilledge Management IS NOW RECRUITING!!</h1>
                     </div>
                 </div>
             </Banner>
             <section className="mx-auto w-[95%] max-w-[1400px] lg:mt-4">
                 <article className="flex flex-col justify-center items-center px-5 lg:px-0  gap-5 lg:gap-7 xl:gap-10 w-full sm:w-[90%] xl:w-[95%] mx-auto *:leading-relaxed">
                     <h2 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
-                        Join the Team at Skilledge Management pvt ltd
+                        Join Skilledge Management Global Workforce
                     </h2>
                     <div className="w-full *:max-w-[350px] *:lg:max-w-[430px] mt-2 bg-light-blue/30 flex flex-col items-center py-3 drop-shadow-xl text-navy-blue font-bold px-8 text-center">
                         <span>
-                            We Offer Competitive Pay Rates + Ownership Equity +
-                            Flexible Scheduling + PTO + 401(k) Match + Benefits
+                            Competitive Salary + International Placement + Flexible Shifts + Career Growth + Global Opportunities
                         </span>
                     </div>
                     <h3 className="text-navy-blue text-center font-bold text-xl sm:text-2xl lg:text-3xl xl:text-4xl">
-                        Apply to Join Our Team Today!
+                        Start Your Global Career Journey Today!
                     </h3>
                     <div className="flex flex-col gap-3 xl:gap-5">
                         <p>
-                            With over 35 years of experience in the field, the
-                            team at Skilledge Management understands that our employees
-                            have a busy and demanding life. That&apos;s why we
-                            offer flexible hours, a good pay rate, and everyone
-                            is treated with respect and the utmost
-                            consideration. If you are dependable, have a strong
-                            work ethic, and want to share our business values,
-                            you can work with us!
+                            With decades of expertise in recruitment, Skilledge Management connects talent with global opportunities. We understand your career goals and offer flexible placements, attractive packages, and full respect for every candidate. If you are motivated, hardworking, and ready for overseas opportunities, we invite you to join us!
                         </p>
                         <p>
-                            The truth is that we love to clean. It&apos;s
-                            rewarding and satisfying to do a great job and
-                            exceed the expectations of our valued clients. Our
-                            philosophy is to build long term relationships with
-                            our customers and employees. There is a place for
-                            you at Skilledge Management.
+                            We are passionate about creating rewarding job experiences. Our vision is to empower individuals and build long-term relationships with both candidates and employers worldwide. Your dream job abroad starts here with Skilledge Management.
                         </p>
                     </div>
                     <a
@@ -56,12 +43,12 @@ export default function Employment() {
                         target="_blank"
                         aria-label="View available jobs"
                     >
-                        <Button text={"VIEW AVAILABLE JOBS"} />
+                        <Button text={"EXPLORE JOB OPENINGS"} />
                     </a>
                     <figure className="relative w-full mt-2 h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] xl:h-[35rem] 2xl:h-[40rem] *:rounded-xl">
                         <Image
                             src="/team-members-cleaning-office.jpg"
-                            alt="Team members cleaning office"
+                            alt="Global recruitment team working together"
                             fill={true}
                         />
                     </figure>
@@ -70,7 +57,7 @@ export default function Employment() {
             <section className="mx-auto w-[95%] max-w-[1400px] relative">
                 <article className="flex flex-col items-center w-full sm:w-[90%] xl:w-[95%] *:xl:w-[85%] mx-auto gap-5 lg:gap-7 xl:gap-10">
                     <h3 className="text-navy-blue text-center font-bold text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
-                        Benefits of Working With Skilledge Management 
+                        Benefits of Working with Skilledge Management
                     </h3>
 
                     <ul className="grid md:grid-cols-2 gap-3 xl:gap-6 font-bold text-navy-blue list-disc ml-10 md:ml-14 *:w-[90%]">
@@ -80,13 +67,6 @@ export default function Employment() {
                     </ul>
                 </article>
             </section>
-            {/* <section className="mx-auto w-[95%] max-w-[1400px]">
-                <article className="flex justify-center">
-                    <div className="w-[95%] max-w-[1300px] sm:w-[90%] lg:w-[90%]">
-                        <Video />
-                    </div>
-                </article>
-            </section> */}
         </main>
     );
 }

@@ -75,11 +75,12 @@ export function Footer({ ref }: FooterProps) {
                         <p className="*:duration-300 *:ease-out *:hover:cursor-pointer *:hover:text-yellow">
                             Website built and designed by{" "}
                             <a
-                                href="#"
+                                href="https://vireonix.co.in"
                                 target="_blank"
+
                                 rel="noopener noreffer"
                             >
-                                Akash Kumar
+                                Vireonix Technologies
                             </a>
                         </p>
                         <p>
