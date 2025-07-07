@@ -1,4 +1,4 @@
-import { Banner, Video } from "../_components";
+import { Banner} from "../_components";
 import Image from "next/image";
 import { cleaningProductsList } from "../_utilities";
 

@@ -1,4 +1,4 @@
-import { Banner, Button, Video } from "../_components";
+import { Banner, Button} from "../_components";
 import Image from "next/image";
 import { employeeBenefitsList } from "../_utilities";
 

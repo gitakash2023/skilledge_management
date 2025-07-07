@@ -1,5 +1,5 @@
 import { businessesServiced } from "./_utilities";
-import { Banner, Button, BusinessCard, ClientList, Video } from "./_components";
+import { Banner, Button, BusinessCard, ClientList} from "./_components";
 import Image from "next/image";
 import Link from "next/link";
 
