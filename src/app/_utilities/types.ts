@@ -1,8 +1,8 @@
 export type Page =
     | "Home"
     | "About"
-    | " Services"
-    | " Supplies"
+    | "Janitorial Services"
+    | "Janitorial Supplies"
     | "Employment"
     | "Contact";
 
